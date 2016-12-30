@@ -13,10 +13,19 @@
 </head>
 <body>
 	<header>
-		<a class="analogsea-logo" href="#"><img src="images/logo.png"></a>
+		<a href="#"><img class="analogsea-logo"src="images/logo.png"></a>
 	</header>
-	<h1>Sign up</h1>
 	<form class="analogsea-form">
+		<h1>Sign up</h1>
+		<label for="email">Email</label>
+		<input class="form-email" placeholder="foo@bar.com" type="email" name="email" id="email">
+
+		<label for="password">Password</label>
+		<input class="form-password" placeholder="1234passwOrd" type="pasword" name="password" id="password">
+
+		<button type="submit">Sign up</button>
+		<p class="password-retrieval">Forgot password?</p>
+
 	</form>
 	<p class="login-link">Already have an acount? <a href="#">Log in</a></p>
 

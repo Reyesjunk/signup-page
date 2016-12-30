@@ -1,0 +1,21 @@
+body {
+	background-color: #298EEA;
+}
+
+.analogsea-logo {
+	height: 35px;
+}
+.analogsea-form {
+
+	background-color: white;
+	width: 400px;
+	padding: 0 40px;
+}
+
+input {
+	display: block;
+}
+
+label {
+	display: block;
+}
