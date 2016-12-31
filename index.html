@@ -17,14 +17,17 @@
 	</header>
 	<form class="analogsea-form">
 		<h1>Sign up</h1>
-		<label for="email">Email</label>
-		<input class="form-email" placeholder="foo@bar.com" type="email" name="email" id="email">
+		<fieldset name="login-info">
+			<label for="email">Email</label>
+			<input class="form-email" placeholder="foo@bar.com" type="email" name="email" id="email">
 
-		<label for="password">Password</label>
-		<input class="form-password" placeholder="1234passwOrd" type="pasword" name="password" id="password">
+			<label for="password">Password</label>
+			<input class="form-password" placeholder="1234passwOrd" type="pasword" name="password" id="password">
+			
+		</fieldset>
 
 		<button type="submit">Sign up</button>
-		<p class="password-retrieval">Forgot password?</p>
+		<p class="password-retrieval"><a href="#">Forgot password?</a></p>
 
 	</form>
 	<p class="login-link">Already have an acount? <a href="#">Log in</a></p>

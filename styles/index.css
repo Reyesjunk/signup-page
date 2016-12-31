@@ -1,21 +1,76 @@
 body {
 	background-color: #298EEA;
 }
+* {
+	box-sizing: border-box;
+}
 
+fieldset {
+	border: none;
+	padding: 0;
+}
 .analogsea-logo {
 	height: 35px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .analogsea-form {
 
 	background-color: white;
 	width: 400px;
-	padding: 0 40px;
+	padding: 30px 40px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
-input {
+.analogsea-form h1, .password-retrieval {
+	text-align: center
+
+}
+
+.analogsea-form input, .analogsea-form button{
+	display: block;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px solid;
+	border-radius: 3px;
+}
+
+.analogsea-form input {
+	border-color: lightgrey;
+}
+
+.analogsea-form button {
+	background-color: green;
+	color: white;
+}
+
+.analogsea-form label {
 	display: block;
 }
 
-label {
-	display: block;
+.password-retrieval {
+	text-decoration: underline;
+}
+
+.password-retrieval a:active {
+	color: green;
+}
+
+.password-retrieval a:visited {
+	color: green;
+}
+
+.login-link {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.login-link a:active , .login-link a:visited{
+	color: white;
 }
